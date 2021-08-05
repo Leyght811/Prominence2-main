@@ -6,6 +6,9 @@ import {
     Link
   } from "react-router-dom";
 
+import Navbar from "./components/Blocks/Navbar";
+import Footer from "./components/Blocks/Footer";
+
 import "./App.css";
 import "./assets/styles/Style.css";
 import "./assets/styles/Coloring.css";
@@ -16,15 +19,22 @@ import "./assets/styles/Transitions.css";
 export default function App() {
     return(
         <div id="App-Main">
+            
             <Router>
-                <Switch>
-                    <Route exact path="/">
-                        <Home />
-                    </Route>
-                    <Route path="/about">
-                        <About/>
-                    </Route>
-                </Switch>
+                <div>
+                    <Navbar />
+                    <Switch>
+                        
+                        <Route exact path="/">
+                            <Home />
+                        </Route>
+                        <Route path="/about">
+                            <About/>
+                        </Route>
+                    </Switch>
+                    <Footer/>
+                </div>
+                
             </Router>
         </div>
     )
