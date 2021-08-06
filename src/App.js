@@ -9,6 +9,8 @@ import {
 import Navbar from "./components/Blocks/Navbar";
 import Footer from "./components/Blocks/Footer";
 
+import Home from "./components/Pages/Home";
+
 import "./App.css";
 import "./assets/styles/Style.css";
 import "./assets/styles/Coloring.css";
@@ -40,13 +42,6 @@ export default function App() {
     )
 }
 
-function Home() {
-    return(
-        <div>
-            Home
-        </div>
-    )
-}
 
 function About() {
     return(

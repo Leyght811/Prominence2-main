@@ -4,9 +4,9 @@ import "../../assets/styles/Footer.css"
 
 const Footer = () => {
     return(
-        <footer className="footer Text-Block">
-            <div style={{lineHeight:"20px"}}>06-343 1011 or 021 2424 800</div>
-            <div style={{lineHeight:"20px"}}>©2021 by Prominence Curtains And Blinds.</div>
+        <footer className=" footer navbar navbar-default navbar-static-bottom justify-content-center Text-Block">
+            06-343 1011 or 021 2424 800 <br />
+            ©2021 by Prominence Curtains And Blinds.
         </footer>
     )
 }
