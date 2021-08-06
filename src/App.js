@@ -10,6 +10,7 @@ import Navbar from "./components/Blocks/Navbar";
 import Footer from "./components/Blocks/Footer";
 
 import Home from "./components/Pages/Home";
+import About from "./components/Pages/About";
 
 import "./App.css";
 import "./assets/styles/Style.css";
@@ -23,7 +24,7 @@ export default function App() {
         <div id="App-Main">
             
             <Router>
-                <div>
+                <div style={{position:"relative"}}>
                     <Navbar />
                     <Switch>
                         
@@ -38,15 +39,6 @@ export default function App() {
                 </div>
                 
             </Router>
-        </div>
-    )
-}
-
-
-function About() {
-    return(
-        <div>
-            About
         </div>
     )
 }
