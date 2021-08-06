@@ -1,0 +1,40 @@
+#homeMain {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#homeImage {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  left: calc(50vw - 679.5px);
+}
+
+#homeText {
+  position: relative;
+  z-index: 5;
+  opacity: 0.7;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  top: 30%;
+  transform: translateY(-70%);
+  text-align: center;
+  padding: 20px;
+}
+
+@media only screen and (max-width: 900px) {
+  #homeText {
+    width: 90vw;
+  }
+}
+
+@media only screen and (max-width: 655px) {
+  #homeText {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+

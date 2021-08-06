@@ -7,7 +7,7 @@ const NavButton = (props) => {
     const pathName = window.location.pathname;
     if(pathName == props.url){
         return(
-            <div className="selectedLink  navLink Header">{props.text}</div>
+            <div className="selectedLink  navLink Maroon">{props.text}</div>
         )
     } else {
         return (

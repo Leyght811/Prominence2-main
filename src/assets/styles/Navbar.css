@@ -9,3 +9,11 @@
   border-style: solid solid none solid;
   border-radius: 5px 5px 0px 0px;
 }
+
+@media only screen and (max-width: 767px){
+  .selectedLink{
+    border: 1px;
+    border-style: solid solid solid solid;
+    border-radius: 5px 5px 5px 5px;
+  }
+}
