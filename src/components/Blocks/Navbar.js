@@ -6,10 +6,10 @@ import "../../assets/styles/Style.css";
 const Navbar = () => {
   return (
     <div>
-      <nav className="navbar navbar-expand-md navbar-dark justify-content-center Text-Block">
+      <nav className="navbar navbar-expand-md navbar-dark justify-content-center textBlock">
         <div className="Header Header2 Maroon">Prominence Curtains and Blinds</div>
       </nav>
-      <nav className="navbar navbar-expand-md Text-Block navbar-dark justify-content-center noPadding">
+      <nav className="navbar navbar-expand-md textBlock navbar-dark justify-content-center noPadding">
         <div style={{textAlign:"center"}}>
         <button
           className="navbar-toggler"

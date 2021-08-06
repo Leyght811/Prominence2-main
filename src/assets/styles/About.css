@@ -1,0 +1,43 @@
+#aboutMain {
+  position: relative;
+  /* overflow: hidden; */
+}
+
+#aboutTxt {
+  background-color: rgba(173, 196, 221, 0.7);
+  position: absolute;
+  z-index: 5;
+  width: 40%;
+  min-height: 800px;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10%;
+  padding: 20px;
+}
+
+#aboutImg {
+  position: relative;
+  z-index: 1;
+  left: calc(100% - 800px);
+}
+
+@media only screen and (max-width: 1200px) {
+  #aboutImg {
+    left: 0;
+    width: 100%;
+    /* top: 50%;
+    transform: translateY(-50%); */
+  }
+
+  #aboutTxt {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  #aboutTxt {
+      height: 400px;
+      min-height: 400px;
+      overflow: scroll;
+  }
+}
