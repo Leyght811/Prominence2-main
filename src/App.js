@@ -12,6 +12,7 @@ import Footer from "./components/Blocks/Footer";
 import Home from "./components/Pages/Home";
 import About from "./components/Pages/About";
 import Products from "./components/Pages/Products";
+import Contact from "./components/Pages/Contact";
 
 import "./App.css";
 import "./assets/styles/Style.css";
@@ -37,6 +38,9 @@ export default function App() {
                         </Route>
                         <Route path="/products">
                             <Products />
+                        </Route>
+                        <Route path="/contact">
+                            <Contact />
                         </Route>
                     </Switch>
                     <Footer/>
