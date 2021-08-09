@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import ProductImg from "../Blocks/ProductImg";
 import "../../assets/styles/Style.css";
 import "../../assets/styles/Products.css";
 
@@ -19,49 +20,39 @@ const Products = () => {
       </div>
       <div className="row">
         <div className="col centered">
-          <div className="productImg Header Maroon" id="productTimberVenetian">
-            <div className="opaque productTxt">Timber venetian blinds</div>
-          </div>
+          <ProductImg id="productTimberVenetian" txt="Timber venetian blind" />
         </div>
         <div className="col centered">
-          <div className="productImg Header Maroon" id="productClassicSheer">
-            <div className="opaque productTxt">Classic style sheers, curtains and blinds</div>
-          </div>
+          <ProductImg
+            id="productClassicSheer"
+            txt="Classic style sheers, curtains and blinds"
+          />
         </div>
         <div className="col centered">
-          <div className="productImg Header Maroon" id="productPelmetValance">
-            <div className="opaque productTxt">Pelmets and valances</div>
-          </div>
+          <ProductImg id="productPelmetValance" txt="Pelmets and valances" />
         </div>
         <div className="col centered">
-          <div className="productImg Header Maroon" id="productSunscreenRoller">
-            <div className="opaque productTxt">Sunscreen roller blinds</div>
-          </div>
+          <ProductImg
+            id="productSunscreenRoller"
+            txt="Sunscreen roller blinds"
+          />
         </div>
       </div>
       <div className="row">
         <div className="col centered">
-          <div className="productImg Header Maroon" id="productRoller">
-            <div className="opaque productTxt">Roller blinds</div>
-          </div>
+          <ProductImg id="productRoller" txt="Roller blinds" />
         </div>
         <div className="col centered">
-          <div className="productImg Header Maroon" id="productRoman">
-            <div className="opaque productTxt">Roman blinds</div>
-          </div>
+          <ProductImg id="productRoman" txt="Roman blinds" />
         </div>
         <div className="col centered">
-          <div
-            className="productImg Header Maroon"
+          <ProductImg
             id="productAluminiumVenetian"
-          >
-            <div className="opaque productTxt">Aluminium venetian blinds</div>
-          </div>
+            txt="Aluminium venetian blinds"
+          />
         </div>
         <div className="col centered">
-          <div className="productImg Header Maroon" id="productVertical">
-            <div className="opaque productTxt">Vertical blinds</div>
-          </div>
+          <ProductImg id="productVertical" txt="Vertical blinds" />
         </div>
       </div>
     </div>
