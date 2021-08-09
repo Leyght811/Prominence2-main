@@ -1,0 +1,27 @@
+#contactOpeningHours{
+    padding: 20px;
+}
+
+.contactHead{
+    margin-bottom: 10px;
+}
+
+#contactDetails{
+    height: 112px;
+    margin-top: 305px;
+}
+
+#contactImg{
+    background-image: url(../img/705910e2f940448eb289d47200f4cab2.png);
+    /* background-size: 100% 100%; */
+    height: 722px;
+}
+
+@media only screen and (max-width:576px){
+    #contactDetails{
+        height: auto;
+        margin-top: 0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
