@@ -6,7 +6,7 @@ import image from "../../assets/img/BrightLivingSpace.png";
 const About = () => {
   return (
     <div id="aboutMain" className="pageMain">
-      <div id="aboutTxt" className="textBlock">
+      <div id="aboutTxt" className="textBlock opaque">
         <div className="Maroon Header2 Header">About Us</div>
         <br />
         Prominence Curtains and Blinds has been a leading retailer of window

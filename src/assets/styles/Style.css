@@ -29,6 +29,10 @@
   background-color: #adc4dd;
 }
 
+.opaque{
+  background-color: rgba(173, 196, 221, 0.7);
+}
+
 .noPadding{
   padding: 0px;
 }
@@ -41,4 +45,9 @@
 
 .pageMain{
   min-height: calc(100vh - 68px);
+  z-index: 0;
+}
+
+.centered{
+  text-align: center;
 }

@@ -1,0 +1,58 @@
+#productsHead {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#productTimberVenetian {
+  background-image: url(../img/2eb8c76e54c144e2b1b853038f224c7b.png);
+}
+
+#productClassicSheer {
+  background-image: url(../img/00090c49ca4746a5aa7103aebd426959.png);
+}
+
+#productPelmetValance {
+  background-image: url(../img/8f3eba_426e5641bdc845f1a9fa4ababbf40445_mv2.png);
+}
+
+#productSunscreenRoller {
+  background-image: url(../img/8f3eba_713ac8f04e9945da9bad469cf6f74697_mv2.png);
+}
+
+#productRoller {
+  background-image: url(../img/8f3eba_e563ca128e6b46348834d9047486fe05_mv2.png);
+}
+
+#productRoman {
+  background-image: url(../img/8f3eba_c0d8a3731bb94c11be776508e1a4462e_mv2.png);
+}
+
+#productAluminiumVenetian {
+  background-image: url(../img/8f3eba_b0698114dd4b4d7fb4f413d1c5c24e62_mv2.png);
+}
+
+#productVertical {
+  background-image: url(../img/8f3eba_a702bb44728d460899bd4222135eaf1a_mv2.png);
+}
+
+.productImg {
+  position: relative;
+  width: 315px;
+  height: 400px;
+  object-fit: cover;
+  object-position: 50% 50%;
+  margin-top: 10px;
+  background-size: 100% 100%;
+  display: inline-block;
+}
+
+.productTxt {
+    text-align: left;
+  position: absolute;
+  bottom: 5px;
+  width: 80%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 5px;
+  font-size: 24px;
+}

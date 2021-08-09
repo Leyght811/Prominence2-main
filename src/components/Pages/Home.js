@@ -6,7 +6,7 @@ import image from "../../assets/img/705910e2f940448eb289d47200f4cab2.png"
 const Home = () => {
     return(
         <div id="homeMain">
-            <div id="homeText" className="textBlock">
+            <div id="homeText" className="textBlock opaque">
                 <h1 className="Header Header3 Maroon">
                     Welcome to Prominence <br/> Curtains and Blinds
                 </h1>
