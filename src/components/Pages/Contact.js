@@ -15,9 +15,9 @@ const Contact = () => {
         <div className="col-sm centered textBlock">
           <div id="contactDetails">
             <div className="Header Header2 Maroon contactHead">Contact us</div>
-            tabwright@orcon.net.nz
+            prominence@gmail.co.nz
             <br />
-            06-343 1011 or 021 2424 800
+            3 633 2347 or 21 769 279
           </div>
         </div>
         <div id="contactImg" className="col-sm"></div>
